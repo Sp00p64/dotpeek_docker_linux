@@ -22,5 +22,5 @@ jobs:
 
           - name: 'Build Inventory Image'
             run: |
-              docker build . --tag ghcr.io/Sp00p64/dotpeek_docker:latest
-              docker push ghcr.io/Sp00p64/dotpeek_docker:latest
+              docker build . --tag ghcr.io/sp00p64/dotpeek_docker:latest
+              docker push ghcr.io/sp00p64/dotpeek_docker:latest
