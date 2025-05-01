@@ -1,5 +1,5 @@
 FROM alpine:3.21.3
-
+LABEL org.opencontainers.image.source https://github.com/sp00p64/dotpeek_docker
 # Add testing repository (to install winetricks)
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk update

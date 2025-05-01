@@ -9,4 +9,4 @@ sudo docker run -it \
      -e DISPLAY=$DISPLAY \
      -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
      -v $(pwd):/mnt \
-    wine_docker
+    ghcr.io/sp00p64/dotpeek_docker:latest
